@@ -1,0 +1,133 @@
+body {
+    background: red;
+}
+.hms_card {
+    position: relative;
+    width: 204px;
+    height: 320px;
+    border: 1px solid red;
+    background-image: url(./assets/bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hm_card_arch {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* identity user */
+.identity_box {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+}
+
+.user_img img {
+    padding: 2px;
+    border-radius: 5px;
+    max-width: 100%;
+    max-height: 100%;
+    border: 1px solid #ddd;
+    background: #fff;
+    position: relative;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+/* end identity user */
+
+.user_name {
+    font-family: 'Barlow', sans-serif;
+    color: #000;
+    position: absolute;
+    bottom: -30px;
+    font-weight: 600;
+    font-size: 15px;
+    margin: 0;
+}
+
+.user_title {
+    font-family: 'Barlow', sans-serif;
+    color: #F9E4B1;
+    position: absolute;
+    bottom: -45px;
+    font-weight: 600;
+    font-size: 10px;
+    margin: 0;
+}
+
+.id_box {
+    font-family: 'Barlow', sans-serif;
+    color: #000;
+    position: absolute;
+    top: 76%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* bottom: -20px; */
+    font-weight: 600;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 120px;
+}
+
+.qrcode {
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.qrcode img {
+    width: 100%;
+    height: auto;
+}
+
+.id_text {
+    width: 100%;
+    text-align: center;
+    margin-left: 5px;
+}
+
+.user_id,
+.user_valid {
+    margin: 0;
+    font-size: 10px;
+    padding: 0;
+    border-bottom: 1px solid #000;
+}
+
+.user_valid {
+    border-bottom: none;
+    color: #FAE1A5;
+}
+
+.arch_1 {
+    width: 80%;
+    position: absolute;
+    z-index: 100;
+}
+
+.arch_2 {
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    z-index: 90;
+}
+
+.arch_3 {
+    width: 55%;
+    position: absolute;
+    top: 5px;
+}
+.arch_4 {
+    width: 55%;
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+}
